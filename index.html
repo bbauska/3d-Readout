@@ -52,14 +52,6 @@
 </head>
 
 <body>
-    <h1>Loop is running...</h1>
-    <p>Press the <strong>ESC</strong> key to stop the loop.</p>
-
-    <script>
-        // Define the repeating task
-        function doRepeatedAction() {
-            console.log("Loop action is running...");
-            // Add the code you want to loop repeatedly here
   <div class="container">
     <div class="content" style="display:block;width:1000px;height:562px">
       <div class="container-full">
@@ -90,19 +82,7 @@
       </div>
     </div>
   </div>
-        }
 
-        // Run the task every 1000 milliseconds (1 second)
-        let intervalId = setInterval(doRepeatedAction, 1000);
-
-        // Listen for the 'Escape' key
-        document.addEventListener('keydown', function(event) {
-            if (event.key === 'Escape') {
-                clearInterval(intervalId); // Stops the loop
-                console.log("Loop has been stopped by the Escape key.");
-            }
-        });
-    </script>
   <script  src="./js/script.js"></script>
 
 </body>
